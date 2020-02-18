@@ -10,11 +10,10 @@ def missingNumbers(arr, brr):
     return unique
 
 
-if __name__ == '__main__':
-    n = int(input())
-    arr = list(map(int, input().rstrip().split()))
-    m = int(input())
-    brr = list(map(int, input().rstrip().split()))
-    result = missingNumbers(arr, brr)
-    for i in result:
-        print(i, end=" ")
+n = int(input())
+arr = list(map(int, input().rstrip().split()))
+m = int(input())
+brr = list(map(int, input().rstrip().split()))
+result = missingNumbers(arr, brr)
+for i in result:
+    print(i, end=" ")
