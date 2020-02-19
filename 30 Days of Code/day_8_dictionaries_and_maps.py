@@ -11,7 +11,7 @@ for i in range(n):
 # taking queries
 query = stdin.read().splitlines()
 
-# searching the queries and printing output
+# searching queries and printing output
 for i in range(len(query)):
     if query[i] in phone_book:
         print(query[i] + "=" + phone_book[query[i]])

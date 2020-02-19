@@ -19,7 +19,7 @@ class MyBook(Book):
     def display(self):
         print("Title: " + self.title)
         print("Author: " + self.author)
-        print(f"Price: {price}")
+        print(f"Price: {price}")  # f-string
 
 
 title = input()

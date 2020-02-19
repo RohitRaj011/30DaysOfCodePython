@@ -13,7 +13,7 @@ class Solution:
 
     def insert(self, head, data):
         new_node = Node(data)  # creating node with user-data
-        # if head is empty head is new node
+        # if head is empty, new node is head
         if head == None:
             head = new_node
         # else iterate to the end and append the new node

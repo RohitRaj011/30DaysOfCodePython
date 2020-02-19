@@ -19,7 +19,7 @@ class Solution:
         return self.queue.pop(0)
 
 
-# read the string s
+# read the string
 s = input()
 # Create the Solution class object
 obj = Solution()

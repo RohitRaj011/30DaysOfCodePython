@@ -10,5 +10,5 @@ for i in range(l):
             numSwaps += 1
 
 print(f"Array is sorted in {numSwaps} swaps.")
-print(f"First Element: {a[0]}")
-print(f"Last Element: {a[-1]}")
+print(f"First Element: {a[0]}")  # 0 denotes first index
+print(f"Last Element: {a[-1]}")  # -1 denotes last index

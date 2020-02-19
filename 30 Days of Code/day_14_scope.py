@@ -12,5 +12,4 @@ a = [int(num) for num in input().split(' ')]
 
 difference = Difference(a)
 difference.computeDifference()
-
 print(difference.maximumDifference)

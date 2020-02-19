@@ -16,7 +16,6 @@ class Student(Person):
         self.idNumber = idNumber
         self.scores = scores
 
-    # method to calculate grade
     def calculate(self):
         average = sum(self.scores)/len(self.scores)
 

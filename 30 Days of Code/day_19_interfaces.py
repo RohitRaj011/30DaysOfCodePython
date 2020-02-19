@@ -5,7 +5,7 @@ class AdvancedArithmetic(object):
 
 class Calculator(AdvancedArithmetic):
     def divisorSum(self, n):
-        total = 1
+        total = 1  # since 1 is divisor of all numbers
         for i in range(2, n+1):
             if n % i == 0:
                 total += i

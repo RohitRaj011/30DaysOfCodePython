@@ -1,7 +1,7 @@
 n = int(input())
+binary = bin(n).replace("0b", "")
 count = 0
 max_count = 0
-binary = bin(n).replace("0b", "")
 for i in binary:
     if i == '1':
         count += 1
