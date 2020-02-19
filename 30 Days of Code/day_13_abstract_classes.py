@@ -24,6 +24,6 @@ class MyBook(Book):
 
 title = input()
 author = input()
-price = int(input())
+price = (input())
 new_novel = MyBook(title, author, price)
 new_novel.display()
