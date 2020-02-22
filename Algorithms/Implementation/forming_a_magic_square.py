@@ -1,11 +1,5 @@
-#import numpy as np
-
-
 # Complete the formingMagicSquare function below.
 def formingMagicSquare(s):
-    for i in range(3):
-        for j range(3):
-
     return s
 
 
